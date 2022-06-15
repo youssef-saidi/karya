@@ -110,7 +110,6 @@ try {
     setMessage(true)
     setAfficheMessage("Votre Maison a été Bien ajouté")
 } catch (error) {
-  console.log("miboun")
   setMessage(false)
   setAfficheMessage("Un erreur est survenue")
   console.log(AfficheMessage)
